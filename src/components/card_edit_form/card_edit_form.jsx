@@ -10,14 +10,19 @@ const CardEditForm = ({ card }) => {
   return (
     <form className={styles.form}>
       <input className={styles.input} type="text" name="name" value={name} />
-      <input className={styles.input} type="text" name="name" value={company} />
+      <input
+        className={styles.input}
+        type="text"
+        name="company"
+        value={company}
+      />
       <select className={styles.select} name="theme" value={theme}>
-        <option value="dark">Dark</option>
-        <option value="light">Light</option>
-        <option value="colorful">Colorful</option>
+        <option value="light">light</option>
+        <option value="dark">dark</option>
+        <option value="colorful">colorful</option>
       </select>
-      <input className={styles.input} type="text" name="name" value={title} />
-      <input className={styles.input} type="text" name="name" value={email} />
+      <input className={styles.input} type="text" name="title" value={title} />
+      <input className={styles.input} type="text" name="email" value={email} />
       <textarea className={styles.textarea} name="message" value={message} />
       <div className={styles.fileInput}>
         <ImageFileInput />
