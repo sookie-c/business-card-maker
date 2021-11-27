@@ -5,6 +5,7 @@
   background-color: makerBlue;
   text-align: center;
   border-radius: 0 0 1rem 1rem;
+  user-select: none;
 }
 
 .title {
