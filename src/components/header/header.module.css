@@ -1,4 +1,4 @@
-@value makerBlue, makerBlack, makerWhite from '../../common/colors.css';
+@value makerBlue, makerLightGrey, makerLightBlue, makerWhite from '../../common/colors.css';
 
 .header {
   width: 100%;
@@ -20,13 +20,17 @@
 
 .logout {
   position: absolute;
-  right: 3em;
+  right: 1em;
   top: 1em;
-  padding: 0.8em;
-  border-radius: 0.7rem;
-  background-color: makerBlack;
-  color: makerWhite;
+  padding: 0.6em;
+  border-radius: 0.5rem;
+  background-color: makerLightGrey;
+  border: 1px solid makerBlack;
   outline: 0;
-  border: 0;
+  /* border: 0; */
   cursor: pointer;
+}
+
+.logout:hover {
+  background-color: makerLightBlue;
 }
