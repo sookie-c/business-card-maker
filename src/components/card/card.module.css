@@ -5,9 +5,9 @@
   align-items: center;
   border-radius: 1em;
   margin-bottom: 0.5em;
-  padding: 2.4em 0;
+  padding: 2.4em 0.5em;
   box-shadow: 6px 6px 8px 0px makerShadow;
-  min-width: 22rem;
+  width: 22rem;
 }
 
 .card.dark {
@@ -35,6 +35,7 @@
 
 .info {
   width: 100%;
+  overflow: auto;
 }
 
 .name,
@@ -58,8 +59,8 @@
 .company::after {
   content: '';
   display: block;
-  width: 90%;
-  height: 1.2px;
+  width: 11.5rem;
+  height: 1px;
   background-color: makerLightGrey;
   transform: translateY(0.5em);
 }
